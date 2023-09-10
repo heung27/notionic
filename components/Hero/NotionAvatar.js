@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const NotionAvatar = (props) => (
   <Image
-    src='https://github.com/heung27/notionic/blob/main/public/mimo.png'
+    src='/public/mimo.png'
   />
 )
 
