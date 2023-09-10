@@ -25,6 +25,29 @@ const Social = () => {
         </svg>
       </Link>
 
+      <Link
+        href={`${BLOG.socialLink.linkedin}`}
+        scroll={false}
+        target='_blank'
+        aria-label='Linkedin'
+        className='text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100'
+      >          
+        <svg
+          className='w-5 h-5'
+          width='24'
+          height='24'
+          viewBox='0 0 24 24'
+          fill='currentColor'
+          xmlns='http://www.w3.org/2000/svg'
+        >
+          <g transform="translate(0.000000,24.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+            <path d="M4 219 c-3 -6 1 -18 9 -27 13 -12 19 -13 31 -3 8 7 12 19 9 27 -6 17 -39 19 -49 3z"/>
+            <path d="M0 85 c0 -73 1 -75 25 -75 24 0 25 2 25 75 0 73 -1 75 -25 75 -24 0 -25 -2 -25 -75z"/>
+            <path d="M80 84 c0 -72 1 -74 25 -74 22 0 25 4 25 39 0 52 8 71 30 71 22 0 30 -19 30 -71 0 -35 3 -39 25 -39 24 0 25 3 25 58 0 77 -14 90 -97 90 l-63 0 0 -74z"/>
+          </g>
+        </svg>
+      </Link>
+
     </div>
   )
 }
