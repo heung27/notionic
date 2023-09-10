@@ -17,7 +17,7 @@ const BlogPost = ({ post }) => {
             fill
             alt={`${post.title}`}
             src={post?.page_cover}
-            className='w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200'
+            className='hidden w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200'
           />
           <div className='hidden md:block md-cover absolute inset-0'></div>
           <div className='md:hidden sm-cover absolute inset-0'></div>
