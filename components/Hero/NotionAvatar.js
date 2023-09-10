@@ -10,7 +10,6 @@ const NotionAvatar = (props) => (
     }}
     viewBox='0 0 421 421'
     xmlns='http://www.w3.org/2000/svg'
-    fill='currentColor'
     {...props}
   >
     <g transform="translate(0.000000,421.000000) scale(0.100000,-0.100000)" >
