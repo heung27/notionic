@@ -31,7 +31,8 @@ const BLOG = {
   socialLink: {
     twitter: '',
     github: 'https://github.com/heung27',
-    telegram: ''
+    telegram: '',
+    linkedin: 'https://www.linkedin.com/in/jinheung-an-89b718240'
   },
   seo: {
     keywords: ['AD Tech', 'Backend Engineering', 'Data Engineering', 'Blog'],
