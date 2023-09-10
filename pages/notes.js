@@ -1,6 +1,5 @@
 import Container from '@/components/Container'
 import NotePost from '@/components/NotePost'
-import NotesHero from '@/components/Hero/Notes'
 import { getBlocksMaps } from '@/lib/getBlocksMaps'
 import { getPostBlocks, getAllPosts } from '@/lib/notion'
 
@@ -43,10 +42,6 @@ const Notes = ({ blocksJson, siteConfigObj, blockMap }) => {
       description={siteConfigObj['Site Description']}
       siteConfigObj={siteConfigObj}
     >
-      <NotesHero blockMap={blockMap} />
-      {blocksJson.map((block) => (
-        <NotePost key={block.slug} note={block} />
-      ))}
     </Container>
   )
 }
