@@ -93,7 +93,6 @@ const NavBar = () => {
 
       <div className='nav-func-btn block'>
         <ThemeSwitcher />
-        // <LangSwitcher />
       </div>
 
       {/* Mobile Phone Menu */}
