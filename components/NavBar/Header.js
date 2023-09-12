@@ -179,9 +179,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
           </Link>
           {navBarTitle ? (
             <p
-              className={`ml-2 font-medium ${
-                !showTitle ? 'hidden' : 'hidden xl:block'
-              }`}
+              className={`ml-2 font-medium hidden xl:block`}
             >
               {navBarTitle}
             </p>
