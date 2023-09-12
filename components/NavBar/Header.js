@@ -187,9 +187,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
             </p>
           ) : (
             <p
-              className={`ml-2 font-medium ${
-                !showTitle ? 'hidden' : 'hidden xl:block'
-              }`}
+              className={`ml-2 font-medium hidden xl:block`}
             >
               {BLOG.title}
             </p>
