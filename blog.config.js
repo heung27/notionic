@@ -4,7 +4,7 @@ const BLOG = {
   email: 'businessheung@gmail.com',
   link: 'https://github.com/heung27',
   newsletter: 'Notionic Weekly',
-  description: 'A static blog build on top of Notion and Next.js',
+  description: '',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Seoul', // See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'auto', // ['light', 'dark', 'auto'],
