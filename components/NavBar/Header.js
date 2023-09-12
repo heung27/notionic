@@ -191,8 +191,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
                 !showTitle ? 'hidden' : 'hidden xl:block'
               }`}
             >
-              {BLOG.title},{' '}
-              <span className='font-normal'>{BLOG.description}</span>
+              {BLOG.title}
             </p>
           )}
         </div>
