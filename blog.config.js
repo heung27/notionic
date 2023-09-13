@@ -1,6 +1,6 @@
 const BLOG = {
   title: 'Umbreon\'s AD Tech Blog',
-  author: 'heung27',
+  author: 'umbreon',
   email: 'businessheung@gmail.com',
   link: 'https://github.com/heung27',
   newsletter: 'Notionic Weekly',
