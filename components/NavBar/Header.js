@@ -177,7 +177,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
               <Logo className='h-6 hover:text-blue-500 dark:hover:text-blue-500 fill-current' />
             </motion.div>
           </Link>
-          <p className='ml-2 font-medium hidden xl:block' >
+          <p className='ml-2 font-medium' >
             {BLOG.title}
           </p>
         </div>
